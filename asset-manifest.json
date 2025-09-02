@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/electricity-alert-app/static/css/main.12799b25.css",
+    "main.js": "/electricity-alert-app/static/js/main.f7619f8e.js",
+    "index.html": "/electricity-alert-app/index.html",
+    "main.12799b25.css.map": "/electricity-alert-app/static/css/main.12799b25.css.map",
+    "main.f7619f8e.js.map": "/electricity-alert-app/static/js/main.f7619f8e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12799b25.css",
+    "static/js/main.f7619f8e.js"
+  ]
+}
