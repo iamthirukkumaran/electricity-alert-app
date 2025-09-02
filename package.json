@@ -1,7 +1,8 @@
 {
-  "name": "electricity-alert-system",
+  "name": "electricity-alert-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://iamthirukkumaran.github.io/electricity-alert-app",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -15,12 +16,15 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.21",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.17"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
